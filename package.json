@@ -1,0 +1,20 @@
+{
+  "name": "graphql-yoga-tutorial",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon ./index.ts —-exec ts-node"
+  },
+  "dependencies": {
+    "@types/express-session": "^1.17.0",
+    "bcryptjs": "^2.4.3",
+    "express-session": "^1.17.1",
+    "graphql-yoga": "^1.18.3",
+    "ms": "^2.1.2"
+  },
+  "devDependencies": {
+    "ts-node": "^8.10.1",
+    "typescript": "^3.9.3"
+  }
+}
